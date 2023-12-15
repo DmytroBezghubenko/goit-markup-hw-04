@@ -77,6 +77,7 @@ ol {
     display: flex;
     align-items: center;
     margin-right: auto;
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 
@@ -173,7 +174,7 @@ ol {
     background-size: cover;
     padding: 188px 0;
     background-color: #2E2F42;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office\ 1.jpg");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office 1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -266,7 +267,7 @@ ol {
     height: 112px;
     flex-wrap: wrap;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     border-radius: 4px;
     border: 1px solid var(--LIGHT-SLATE, #8E8F99);
     background: var(--CLOUD, #F4F4FD);
@@ -338,7 +339,9 @@ ol {
     letter-spacing: 0.02em;
 }
 
-.team-icon-link {}
+.team-icon-link {
+    display: flex;
+}
 
 .team-iscons {
     display: flex;
@@ -510,6 +513,10 @@ ol {
     background-color: #03a9f4;
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon-link {
+    display: flex;
 }
 
 .footer-icon {
