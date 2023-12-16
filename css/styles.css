@@ -494,7 +494,7 @@ ol {
     color: #F4F4FD;
 }
 
-.footer-caption {
+.footer-caption-first {
     width: 264px;
     color: #FFFFFF;
     font-size: 16px;
@@ -502,11 +502,20 @@ ol {
     letter-spacing: 0.02em;
 }
 
+.footer-caption {
+    width: 264px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
 .footer-icons {
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-top: 16px;
 }
 
 .footer-icons-item {
