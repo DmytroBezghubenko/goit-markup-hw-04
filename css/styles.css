@@ -178,6 +178,7 @@ ol {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people.jpeg");
     background-repeat: no-repeat;
     background-position: center;
+    margin: 0 auto;
 }
 
 .herosection-container {
@@ -496,11 +497,9 @@ ol {
 .footer-caption {
     width: 264px;
     color: #FFFFFF;
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
 }
 
 .footer-icons {
